@@ -24,14 +24,14 @@ const Trustedsection = () => {
     <div>
      <div className='heading-trusted'>Trusted and loved by the world’s best teams</div>
       <div className='image-part-trusted-section'>
-        <div><img src={im3} alt='a'/></div>
-        <div><img src={im2} alt='a'/></div>
-        <div><img src={im1} alt='a'/></div>
-        <div><img src={im4} alt='a'/></div>
+        <div className='image-part-trusted-section-image'><img src={im3} alt='a'/></div>
+        <div className='image-part-trusted-section-image'><img src={im2} alt='a'/></div>
+        <div className='image-part-trusted-section-image'><img src={im1} alt='a'/></div>
+        <div className='image-part-trusted-section-image'><img src={im4} alt='a'/></div>
       </div>
       <div className='image-part-trusted-section'>
         {a.map(elem=>{return(
-            <div>
+            <div className='image-part-trusted-section-image'>
             <div className='title-trusted'>{elem.title}</div>
             <div className='midinfo-trusted'>{elem.midinfo}</div>
             <div className='lowerinfo-trusted'>{elem.lowerinfo}</div>

@@ -1032,4 +1032,94 @@ margin-left: 50px;
 margin-top: 15px;
 color: #FFFFFF;
 width: 200px;
+
  }
+ .menu-box{
+ display: none;
+ }
+ @media (max-width:420px ){
+  .mid-nav{
+    display: none;
+  }
+  .contactus-button{
+    display: none;
+  }
+  .menu-box{
+    display: block;
+  }
+  .image-part-trusted-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .image-part-trusted-section-image{
+    height: 200px;
+  }
+  .infrom{
+    margin-top: 100px;
+    }
+  .heading-trusted{
+ font-size: 48px;
+}
+.inform-image{
+width: 351px;
+height: 300px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.inform-box3{
+  display: none;
+}
+.inform-info{
+width: 336.23px;
+height: 180px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+width: 100%;
+display: flex;
+align-items: center;
+letter-spacing: -0.18px;
+margin-top: 50px;
+color: #37456C;
+
+}
+.Make-main{
+  width: 80%;
+  flex-direction: column;
+}
+.left-make-info{
+  margin-left: 0px;
+  font-size: 16px;
+}
+ .Resource-box{
+  flex-direction: column;
+  margin-top: 10px;
+}
+.boxes-waytowork{
+  flex-direction: column;
+}
+.Waytowork{
+  height: 2000px;
+}
+.waytw-toppart{
+  flex-direction: column;
+}
+.create-main{
+  flex-direction: column-reverse;
+  width: 80%;
+}
+.stamps,.features-main{
+  flex-direction: column;
+  width: 100%;
+}
+.ai-kit-main{
+  flex-direction: column-reverse;
+}
+.footer{
+  flex-direction: column;
+}
+}
