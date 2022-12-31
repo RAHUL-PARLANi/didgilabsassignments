@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import AIkit from "./components/AIkit";
+import Create from "./components/create";
+import Features from "./components/features";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Herosection from "./components/herosection";
+import Informusers from "./components/informusers";
+import Makeyoursite from "./components/makeyoursite";
+import ReSources from "./components/ReSources";
+import Stamps from "./components/stamps";
+import Trustedsection from "./components/trusted-section";
+import Waytowork from "./components/waytowork";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Herosection/>
+    <Trustedsection/>
+    <Informusers/>
+    <Makeyoursite/>
+    <Waytowork/>
+    <Create/>
+    <Features/>
+    <AIkit/>
+    <Stamps/>
+    <ReSources/>
+    <Footer/>
+    </>
   );
 }
 
