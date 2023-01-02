@@ -1,9 +1,11 @@
+
 .header{
   display: flex;
   justify-content: space-evenly;
   height: 120px;
   align-items: center;
 }
+
 .mid-nav{
   display: flex;
   width: 300px;
@@ -24,7 +26,6 @@
   color: white;
 }
 
-/*FOOTER STYLING BEGINS NOW*/
 .footer{
   display: flex;
   width: 80%;
@@ -87,7 +88,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-/* identical to box height, or 133% */
 margin-top: 9px;
 display: flex;
 align-items: center;
@@ -102,7 +102,6 @@ color: #1355FF;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  /* identical to box height, or 200% */
   
   display: flex;
   align-items: center;
@@ -116,7 +115,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-/* identical to box height, or 171% */
 
 display: flex;
 align-items: center;
@@ -141,7 +139,6 @@ color: #67718E;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
   
   display: flex;
   align-items: center;
@@ -151,7 +148,6 @@ color: #67718E;
   color: #061237;
   
   
-  /* Inside auto layout */
   margin-top: 32px;
   justify-content: center;
   width: 146.22px;
@@ -165,7 +161,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 32px;
-/* or 200% */
 
 display: flex;
 align-items: center;
@@ -180,7 +175,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 23px;
 line-height: 32px;
-/* or 139% */
 
 display: flex;
 align-items: center;
@@ -1122,4 +1116,257 @@ color: #37456C;
 .footer{
   flex-direction: column;
 }
+} 
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav-img{
+  height: 80px;
+  width: 150px;
+}
+.navhead{
+  font-size: larger;
+  font-weight: 600;
+  font-family: 'inter';
+}
+.hero--section{
+  display: flex;
+  margin-bottom: 100px;
+  align-items: center;
+ 
+  justify-content: center;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #18264E;
+  background-image: url('https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU=');
+}
+.sections{
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+  border: 5px solid white;
+  margin-right: 15PX;
+
+}
+.section{
+  background-color: white;
+  border-right: whitesmoke 2px solid;
+  padding: 10px;
+  font-weight: 600;
+  font-family: 'inter';
+}
+.section1{
+  background-color: white;
+  padding: 10px;
+  font-family: 'inter';
+  width: 250px;
+  font-weight: 600;
+}
+.check-button{
+color: black;
+background-color: yellow;
+padding: 15PX;
+border: none;
+font-weight: 600;
+border-radius: 5PX;
+}
+.imagepart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small-images{
+  width: 260px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.big-image{
+  height: 370px;
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 700px;
+}
+.Hotel-name{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'inter';
+}
+.discription,.address{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'inter';
+}
+.phone-number{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'inter';
+}
+.Keypoints{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: 'inter';
+}
+.mid-section{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.map-image img{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+.keys{
+  margin-right: 50px;
+}
+.list{
+  margin-top: 150px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+}
+.list-list{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'inter';
+}
+.list-title{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'inter'; 
+}
+.list-subtitle{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'inter'; 
+  margin-bottom: 10px;
+}
+li{
+  margin-top: 5px;
+}
+.pos{
+  position: absolute;
+  background-color: white;
+  top: 40px;
+  right: -5px;
+  width: 270px;
+  border: 5px solid white;
+  font-family: 'inter';
+  padding: 10px;
+}
+.rooms{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.pos-titile{
+  font-weight: 500px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.titile-rooms{
+  font-weight: 900px;
+  font-size: 18px;
+}
+.titleiinfo{
+  font-size: 12px;
+ margin-top: 5px;
+}
+.done-bu{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  color: blue;
+  font-weight: 600;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #0133B7 1px solid;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: white;
+}
+.sop{
+  position: absolute;
+  background-color:white;
+  width: 100px;
+  height: 100px;
+  right: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px solid white;
+  border-radius: 140px 140px 140px 0px;
+  top:150px;
+  z-index: 1;
+  box-shadow:  -20px 20px 60px #bebebe,
+             20px -20px 60px #ffffff;
+}
+.sop-circle{
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  background-color: green;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.VR{
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  border-radius: 100%;
+  
+}
+.V{
+  color: white;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.R{
+  color:black;
+  background-color: yellow;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: -40px;
+  border: 10px solid white;
 }
