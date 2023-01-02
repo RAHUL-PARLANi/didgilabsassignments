@@ -1183,15 +1183,16 @@ border-radius: 5PX;
   align-items: center;
 }
 .small-images{
-  width: 260px;
+  width: 220px;
   border-radius: 10px;
   margin: 10px;
+  height: 175px;
 }
 .big-image{
   height: 370px;
   border-radius: 15px;
   margin-right: 10px;
-  width: 700px;
+  width: 500px;
 }
 .Hotel-name{
   margin-top: 10px;
@@ -1243,7 +1244,7 @@ border-radius: 5PX;
 .list-list{
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   font-family: 'inter';
 }
